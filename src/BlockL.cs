@@ -12,11 +12,11 @@ namespace Tetris
     public class BlockL : Block
     {
         /// <summary>
-        /// Initialises a <see cref="BlockJ"/> instance.
+        /// Initialises a <see cref="BlockL"/> instance.
         /// </summary>
         /// <param name="startPoint">Raw starting position of the block.</param>
         /// <param name="cellWidth">Width of a block cell.</param>
-        public BlockL(Point2D startPoint, int cellWidth) : base(startPoint, cellWidth, SwinGame.ColorTurquoise(), AppConfig.Background)
+        public BlockL(Point2D startPoint, int cellWidth) : base(startPoint, cellWidth, SwinGame.RGBColor(255, 153, 0), AppConfig.Background)
         {
 
         }

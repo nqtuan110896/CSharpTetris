@@ -16,7 +16,7 @@ namespace Tetris
         /// </summary>
         /// <param name="startPoint">Raw starting position of the block.</param>
         /// <param name="cellWidth">Width of a block cell.</param>
-        public BlockO(Point2D startPoint, int cellWidth) : base(startPoint, cellWidth, SwinGame.ColorYellow(), AppConfig.Background)
+        public BlockO(Point2D startPoint, int cellWidth) : base(startPoint, cellWidth, SwinGame.RGBColor(255, 255, 0), AppConfig.Background)
         {
 
         }

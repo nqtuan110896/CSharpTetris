@@ -77,6 +77,7 @@
     <Compile Include="src\BlockJ.cs" />
     <Compile Include="src\BlockO.cs" />
     <Compile Include="src\BlockI.cs" />
+    <Compile Include="src\Board.cs" />
     <Compile Include="src\Cell.cs" />
   </ItemGroup>
   <ItemGroup>

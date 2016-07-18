@@ -138,6 +138,27 @@ namespace Tetris
             }
         }
 
+        /// <summary>
+        /// Gets a specific row of cells.
+        /// </summary>
+        /// <param name="row">Row index.</param>
+        /// <returns>A row of cell (as an array of <see cref="Cell"/>).</returns>
+        public Cell[] this[int row]
+        {
+            get { return _cells[row]; }
+        }
+
+        /// <summary>
+        /// Gets or sets a specific cell.
+        /// </summary>
+        /// <param name="row">Row index.</param>
+        /// <param name="col">Column index.</param>
+        /// <returns>Cell at the specific row and column indices.</returns>
+        public Cell this[int row, int col]
+        {
+            get { return _cells[row][col]; }
+            set { _cells[row][col] = value; }
+        }
         
         public int TotalWidth
         {
